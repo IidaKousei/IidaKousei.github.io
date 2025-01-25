@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import "./globals.css";
 
 // import { basePath } from "../../next.config" // 追加
