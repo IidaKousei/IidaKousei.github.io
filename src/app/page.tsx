@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="title">Ikou My Create Pages</h1>
-      <h2 className="subtitle">只今工事中です。しばらくお待ちください。
+      <h2 className="subtitle">只今工事中です。<wbr/>しばらくお待ちください。
       </h2>
       <div className="loading">
       <div className="loading-circle"></div>
