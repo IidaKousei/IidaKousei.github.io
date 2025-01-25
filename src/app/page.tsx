@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import "./globals.css";
 
 // import { basePath } from "../../next.config" // 追加
@@ -8,8 +7,6 @@ import "./globals.css";
 
 
 export default function Home() {
-
-   const [isLoading] = useState(true);
 
   return (
     <div>
