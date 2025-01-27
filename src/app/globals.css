@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
 
 
@@ -70,7 +69,7 @@
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: spin 1.5s ease-in-out infinite;
+  animation: spin 2s ease-in-out infinite;
   overflow: hidden;
 
 }
