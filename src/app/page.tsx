@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-  <div className="container">
+    <div className= "container" >
     <div className="visuallyHidden">IKOU Creative Pages</div>
     <div className="text" aria-hidden="true">
       <span className="char" style={{ "--char-index": 0 } as React.CSSProperties}> I </span>
@@ -42,10 +42,9 @@ export default function Home() {
       <span className="char" style={{ "--char-index": 15 } as React.CSSProperties}> e </span>
       <span className="char" style={{ "--char-index": 16 } as React.CSSProperties}> s </span>
     </div>
+    <div>
     <br></br>
-    <h2 className="subtitle">Coming Soon...</h2>
-    <div className="loading">
-      <div className="loading-circle"></div>
+      <h2 className="subtitle">Coming Soon...</h2>
     </div>
   </div>
   );
