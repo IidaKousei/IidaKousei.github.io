@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { Button, HStack, VStack } from "@chakra-ui/react";
+import { Button, HStack, VStack, Box } from "@chakra-ui/react";
 
 export default function Home() {
   useEffect(() => {
@@ -15,8 +15,10 @@ export default function Home() {
   }, []);
 
   return (
-    <VStack maxW="800px" w="100%" mx="auto" p={4}>
-      Hello World!
+    <VStack maxW="800px" w="100%" mx="auto" textStyle="md" fontWeight="normal">
+      <Box bg="gray" w="100%" p="4" color="white" textStyle="2xl" fontWeight="semibold">
+        IK Studio
+      </Box>
     </VStack>
   );
 }
