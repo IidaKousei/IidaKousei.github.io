@@ -16,7 +16,14 @@ export default function Home() {
 
   return (
     <VStack maxW="800px" w="100%" mx="auto" textStyle="md" fontWeight="normal">
-      <Box bg="gray" w="100%" p="4" color="white" textStyle="2xl" fontWeight="semibold">
+      <Box
+        bg="gray"
+        w="100%"
+        p="4"
+        color="white"
+        textStyle="2xl"
+        fontWeight="semibold"
+      >
         IK Studio
       </Box>
     </VStack>
